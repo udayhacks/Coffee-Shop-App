@@ -20,16 +20,22 @@ export default function  Card(props){
     return(
       <>
       <div className="card-wrapper">
+
           <div className="card-image">
               <img src = {props.image}  alt="Product not available"/>
               {props.popular && <h1>popular</h1>}
-
           </div>
+
           <div className="card-content">
               <h1 className="card-name">{props.name}</h1>
               <h1>{props.price}</h1>
+
               <div className="card-star">
-                  <img src = ""/>
+                  <img src = {"./assets/Star.svg"} alt= "start"/>
+                  <h1 className="card-rating">{props.rating}</h1>
+                  <h1 className="card-votes">{props.votes}</h1>
+                  /* sold out add */
+
               </div>
           </div>
       </div>

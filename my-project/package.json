@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/node": "^4.1.16",
+    "axios": "^1.13.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

@@ -5,16 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a96e0a-5c5c-4925-b78c-b1c4cb400317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my-project/src/Cards/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/src/Cards/Card.modules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/body/Body.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/Cards/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/Cards/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/my-project/src/body/Body.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -24,32 +47,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.localhost:5173.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.Api.jsx.executor": "Run",
+    "Node.js.api.jsx.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/freak/Desktop/CURRENT/Simple-Coffee-Listing/my-project/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\freak\Desktop\CURRENT\Simple-Coffee-Listing\my-project\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\freak\Desktop\CURRENT\Simple-Coffee-Listing\my-project\src" />
     </key>
   </component>
+  <component name="RunManager" selected="Node.js.Api.jsx">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Api.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/my-project/src/serverData/Api.jsx" working-dir="$PROJECT_DIR$/my-project/src/serverData">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Api.jsx" />
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
       </set>
     </attachedChunks>
   </component>
@@ -63,6 +119,15 @@
       <workItem from="1761379034943" duration="1221000" />
       <workItem from="1761380294386" duration="2226000" />
       <workItem from="1761382543626" duration="1316000" />
+      <workItem from="1761583658546" duration="285000" />
+      <workItem from="1761621767702" duration="125000" />
+      <workItem from="1761621977284" duration="538000" />
+      <workItem from="1761623920845" duration="850000" />
+      <workItem from="1761624791697" duration="2317000" />
+      <workItem from="1761627146807" duration="41000" />
+      <workItem from="1761627327401" duration="1671000" />
+      <workItem from="1761637407301" duration="1801000" />
+      <workItem from="1761657028873" duration="2226000" />
     </task>
     <servers />
   </component>
@@ -75,25 +140,95 @@
     <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="OPEN_GENERIC_TABS">
       <map>
-        <entry key="MAIN">
+        <entry key="fca9e55d-9908-47a7-a718-787eac909f5a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
           <value>
-            <State />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my-project/src/Cards/Card.jsx</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="fca9e55d-9908-47a7-a718-787eac909f5a">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
