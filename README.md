@@ -49,11 +49,10 @@ Your project should meet the following specifications:
 
 ---
 
-## ⚙️ Tech Stack (Suggested)
+## ⚙️ Tech Stack 
 
-- **React + Vite** (for fast development)
+- React 
 - **Tailwind CSS** (for styling)
-- **TypeScript** *(optional)*
-- **Vercel / Netlify** for deployment
+
 
 ---
