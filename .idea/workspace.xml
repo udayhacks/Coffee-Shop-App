@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a96e0a-5c5c-4925-b78c-b1c4cb400317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my-project/src/body/Body.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f6a96e0a-5c5c-4925-b78c-b1c4cb400317" name="Changes" comment="in progress">
+      <change afterPath="$PROJECT_DIR$/my-project/src/Cards/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/Star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/Star_fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/bg-cafe-lg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/bg-cafe-sm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/bg-cafe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/body/Body.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/serverData/Api.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-project/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-project/src/Cards/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/Cards/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/Cards/Card.modules.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <setting file="file://$PROJECT_DIR$/my-project/src/body/Body.jsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -47,39 +50,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JavaScript Debug.localhost:5173.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.Api.jsx.executor": "Run",
-    "Node.js.api.jsx.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/freak/Desktop/CURRENT/Simple-Coffee-Listing/my-project/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.Api.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.api.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/freak/Desktop/CURRENT/Simple-Coffee-Listing/my-project/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\freak\Desktop\CURRENT\Simple-Coffee-Listing\my-project\src" />
@@ -127,8 +130,21 @@
       <workItem from="1761627146807" duration="41000" />
       <workItem from="1761627327401" duration="1671000" />
       <workItem from="1761637407301" duration="1801000" />
-      <workItem from="1761657028873" duration="2226000" />
+      <workItem from="1761657028873" duration="2342000" />
+      <workItem from="1761815148259" duration="38000" />
+      <workItem from="1761920862241" duration="3258000" />
+      <workItem from="1762008851086" duration="6853000" />
+      <workItem from="1762075990644" duration="1692000" />
     </task>
+    <task id="LOCAL-00001" summary="in progress">
+      <option name="closed" value="true" />
+      <created>1761659322792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761659322792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,5 +246,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="in progress" />
   </component>
 </project>

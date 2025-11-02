@@ -1,47 +1,61 @@
-
-
-/*
-{
-    "id": 1,
-    "name": "Cappuccino",
-    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg",
-    "price": "$5.20",
-    "rating": 4.7,
-    "votes": 65,
-    "popular": true,
-    "available": true
- */
-
-
-
 import React from "react";
-export default function  Card(props){
+import style from "./Card.module.css";
+import StarIcon from "../assets/Star.svg";
+import StarIcon2 from "../assets/Star_fill.svg";
 
-    return(
-      <>
-      <div className="card-wrapper">
+export default function Card({
+                                 image,
+                                 popular,
+                                 available,
+                                 name,
+                                 price,
+                                 rating,
+                                 votes,
+                             }) {
+    const hasRating = rating > 0;
 
-          <div className="card-image">
-              <img src = {props.image}  alt="Product not available"/>
-              {props.popular && <h1>popular</h1>}
-          </div>
+    return (
+        <div className={`${style.cardWrapper} ${!available ? style.unavailable : ""}`}>
+            <div className={style.cardImageWrapper}>
+                <img src={image} alt={name} className={style.cardImage} />
 
-          <div className="card-content">
-              <h1 className="card-name">{props.name}</h1>
-              <h1>{props.price}</h1>
-
-              <div className="card-star">
-                  <img src = {"./assets/Star.svg"} alt= "start"/>
-                  <h1 className="card-rating">{props.rating}</h1>
-                  <h1 className="card-votes">{props.votes}</h1>
-                  /* sold out add */
-
-              </div>
-          </div>
-      </div>
+                {/* Popular Badge */}
+                {popular && <span className={style.cardBadge}>Popular</span>}
 
 
-      </>
+            </div>
 
+            <div className={style.cardContent}>
+                <div className={style.cardHeader}>
+                    <h3 className={style.cardName}>{name}</h3>
+                    <span className={style.cardPrice}>{price}</span>
+                </div>
+
+                <div className={style.cardFooter}>
+                    {hasRating ? (
+                        <>
+                            <img
+                                src={StarIcon2}
+                                alt="star"
+                                className={`${style.cardStarImage} ${style.filled}`}
+                            />
+                            <span className={style.cardRating}>{rating.toFixed(2)}</span>
+                            <span className={style.cardVotes}>({votes} votes)</span>
+                        </>
+                    ) : (<>
+                            <img
+                                src={StarIcon2}
+                                alt="star"
+                                className={`${style.cardStarImage} ${style.filled}`}
+                            />
+                            <span className={style.noRating}>No ratings</span>
+                    </>
+
+
+                    )}
+                    {!available && <h1 className={style.soldOut}>Sold out</h1>}
+                </div>
+            </div>
+        </div>
     );
 }
