@@ -39,7 +39,7 @@ export default function Card({
                                 alt="star"
                                 className={`${style.cardStarImage} ${style.filled}`}
                             />
-                            <span className={style.cardRating}>{rating.toFixed(2)}</span>
+                            <span className={style.cardRating}>{rating}</span>
                             <span className={style.cardVotes}>({votes} votes)</span>
                         </>
                     ) : (<>

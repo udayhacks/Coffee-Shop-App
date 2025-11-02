@@ -5,7 +5,8 @@ import useCoffeeData from './hooks/Api.js'
 
 function App() {
 
-    const [data, loading, error] = useCoffeeData()
+    const [coffee, loading, error] = useCoffeeData()
+    console.log(coffee);
 
     if (loading) return (
         <>
@@ -18,6 +19,14 @@ function App() {
 
     return (
         <>
+            <div className="Title">
+                <h1>Coffe shop </h1>
+            </div>
+            <div className="item">
+                {coffee.map((item) => (
+                    <Card key={item.id} {...item} />
+                ))}
+            </div>
 
 
         </>
