@@ -1,14 +1,15 @@
-import './App.css'
+import  './App.css'
 import Display  from "./Listing/Display.jsx";
+import Body from "./body/Body.jsx"
 
 
 function App() {
 
 return(
   <>
-
-      <Display/>
-
+   <div className="wrapper">
+       <Body/>
+   </div>
   </>
 );
 }

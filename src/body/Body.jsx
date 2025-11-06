@@ -1,16 +1,20 @@
 import bgImage from '../assets/bg-cafe-lg.jpg';
 import style from './Body.module.css';
+import Display from "../Listing/Display.jsx";
 
 export default function Body() {
     return (
-        <div className="relative w-full h-screen">
-            <img
-                src={bgImage}
-                alt="background"
-                className="absolute top-0 left-0 w-full h-full object-cover"
-            />
-            <div className="relative z-10 flex items-center justify-center h-full">
+        <div className={style.wrapper}>
+            <div className={style.topBackImage}>
+                <img src={bgImage} alt="bg-cafe" />
+
             </div>
+            <div className={style.collection}>
+                    <Display/>
+
+            </div>
+
+
         </div>
     );
 }
