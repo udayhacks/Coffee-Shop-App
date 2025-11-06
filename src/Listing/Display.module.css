@@ -10,21 +10,26 @@
 
 
 .wrapper{
-    background-color: #1c1d1f;
+    background-color:#1c1d1f;
     align-content: center;
-
     border-radius:10px;
     margin:auto;
+    padding:10px 20px 10px;
+
 }
-
-
-.ourCollection{
-
+.ourCollection {
     display: flex;
-    border: #dc2020;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+
+
+    background-image: url("src/assets/vector.svg");
+    background-repeat: no-repeat;
+    background-position: 58%;
+    background-size: contain;
+    padding: 2rem;
 }
 
 
@@ -37,13 +42,18 @@
 .title{
     color : rgb(255, 249, 239);
     justify-content: center;
-}
+    text-align: center;
 
+}
 
 .intro{
     color : rgb(255, 249, 239);
-}
+    justify-content: center;
+    text-align: center;
+    font-size:1rem;
+    color: #61646b;
 
+}
 .buttons{
     padding: 10px;
     display: flex;
@@ -54,7 +64,7 @@
 
 .collection_button ,.available_button{
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-size: 1.2rem;
     color:white;
     background-color: #1c1d1f;
@@ -78,28 +88,52 @@
 
 
 .collection_button:hover ,.available_button:hover{
-    background-color : #4d5562;
+    background-color : hsl(220, 1%, 26%)
 }
 
-
-.displayCoffee{
+.displayCoffee {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
-    box-shadow: #1e1e1e;
-    flex: 1;
     flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 
+.displayCoffee > .coffeeCard {
+    flex: 1 1 250px;   /* Grow, shrink, and base width */
+    max-width: 300px;  /* Limit card width */
+}
 
 
+@media (max-width: 1024px) {
+    .displayCoffee {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .displayCoffee > .coffeeCard {
+        width: 90%;
+        max-width: 400px;
+    }
+}
 
 
+@media (min-width: 412px) and (max-width: 992px) {
+    .displayCoffee {
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
 
-
+    .displayCoffee > .coffeeCard {
+        flex: 1 1 calc(45% - 1rem);
+        max-width: 350px;
+    }
+}
 
 
 
