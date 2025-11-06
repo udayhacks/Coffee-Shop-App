@@ -44,7 +44,7 @@ export default function Card({
                         </>
                     ) : (<>
                             <img
-                                src={StarIcon2}
+                                src={StarIcon}
                                 alt="star"
                                 className={`${style.cardStarImage} ${style.filled}`}
                             />

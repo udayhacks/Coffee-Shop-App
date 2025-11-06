@@ -36,15 +36,22 @@ export default function Display() {
 
     return (
         <>
+            <div className={style.wrapper}>
+
+
                 <div className={style.ourCollection}>
                     <h1 className={style.title}> Our Collection</h1>
-                    <p>Introducing our Coffee Collection, a selection of unique coffees
+                    <p className={style.intro}>Introducing our Coffee Collection, a selection of unique coffees
                         from different roast types and origins, expertly roasted in small
                         batches and shipped fresh weekly. </p>
-                    <div className="style.buttons">
+
+                </div>
+
+                    <div className="style.btns">
 
                         <button type = "button" onClick={collection}> All Products</button>
                         <button type = "button" onClick={available_handle} > Available Now</button>
+
                     </div>
                     <div className={style.displayCoffee}>
                         {
@@ -56,7 +63,8 @@ export default function Display() {
                         }
                     </div>
 
-                </div>
+
+            </div>
         </>
     );
 }
