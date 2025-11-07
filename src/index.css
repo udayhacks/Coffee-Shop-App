@@ -1,3 +1,4 @@
-.body{
-    background-color:black ;
+body {
+    margin: 0;
+    background-color: #000; /* ensures page outside wrapper is black */
 }

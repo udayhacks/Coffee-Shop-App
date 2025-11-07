@@ -1,26 +1,48 @@
+
 .wrapper {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
-    background-image: url("src/assets/bg-cafe.jpg");
-    margin :1px;
+    background-color: #121315;
+    background-image: url("src/assets/bg-cafe-lg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
 
+    background-attachment: fixed;
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.collection{
-   width:80%;
-    height: 80%;
-    position :absolute;
-    top:30%;
+.collection {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(205, 25, 25, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 8%;
+}
 
 
+@media (max-width: 1028px) {
+    .wrapper {
+        background-image: url("src/assets/bg-cafe-sm.jpg");
+    }
+    .collection {
+        width: 70%;
+        height: 60%;
+    }
 }
-.body{
-    margin:0rem;
-}
-.topBackImage{
-    margin:auto;
-    background-color: red;
+
+@media (max-width: 640px) {
+    .wrapper {
+        background-image: url("src/assets/bg-cafe-sm.jpg");
+    }
+    .collection {
+        width: 90%;
+        height: auto;
+    }
 }
